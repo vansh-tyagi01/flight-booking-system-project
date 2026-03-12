@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body{
+            background: #f5f5f7;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            border: 1px solid black;
+            border-radius: 8px;
+            margin: auto;
+            width: 750px;
+            height: 490px;
+            margin-top: 80px;
+        }
+        .h1-div{
+            background-color: rgb(131, 113, 128);
+            margin-top: 0px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 2px;
+            margin-bottom: 0;
+            border-bottom: 3px solid black;
+        }
+        .h1-head{
+            font-weight: bolder;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        .response{
+            text-align: center;
+            background-color: #f5f5f7;
+            margin-top: 0;
+            padding: 5px;
+            margin-bottom: 0;
+            background-color: rgb(222, 222, 231);
+        }
+        .p-tag1{
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: large;
+            padding: 20px;
+            display: inline-block;
+        }
+        form {
+            margin-top: 100px;
+            text-align: center;
+        }
+        .btn-welcome {
+            border: 1px solid black;
+            border-radius: 7px;
+            cursor: pointer;
+            padding: 8px;
+            background-color: blue;
+            color: white;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+
+        <div class="h1-div">
+            <h1 class="h1-head">Hello {{n}}</h1>
+        </div>
+
+        <div class="response">
+            <p class="p-tag1">{{n}}, your seat {{s}} is 💺booked successfully👍</p>
+        </div>
+    
+        
+
+
+        <form action="home">
+            <button class="btn-welcome">Home</button>
+        </form>
+
+
+
+
+    </section>
+</body>
+</html>
